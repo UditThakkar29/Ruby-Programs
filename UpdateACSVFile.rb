@@ -11,4 +11,4 @@ CSV.open("test.csv", "a") do |csv|
   csv << ["abc", "IT", "SE"]
 end
 
-puts CSV.read("test.csv")
+puts CSV.read("test.csv").inspect
